@@ -1,8 +1,14 @@
-![Mars Research Agent](title.svg)
+<h1 align="center"><b>Mars Research Agent</b></h1>
 
-![Mars Research Agent Workflow](workflow.png)
+<p align="center">
+  <b>A reusable research pipeline for Martian literature retrieval, scientific question analysis, survey generation, and mind map construction.</b>
+</p>
 
-![Section Divider](divider.svg)
+<p align="center">
+  <img src="workflow.png" alt="Mars Research Agent Workflow" width="850">
+</p>
+
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Overview
 
@@ -15,7 +21,7 @@ Mars Research Agent connects literature retrieval, relevance screening, survey g
 | Survey generation | Produce structured research summaries from selected papers. |
 | Mind map output | Generate a mind map-style representation of the research context. |
 
-![Section Divider](divider.svg)
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Data and Modes
 
@@ -27,7 +33,7 @@ The current corpus contains approximately **2,000 Mars-related papers**, mainly 
 | `middle` | Query-centered evidence extraction | Yes |
 | `full` | Deeper survey preparation and analysis | Yes |
 
-![Section Divider](divider.svg)
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Quick Start
 
@@ -56,7 +62,7 @@ python scripts/run_survey_stage.py \
   --survey_mode lightweight
 ```
 
-![Section Divider](divider.svg)
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Main Outputs
 
@@ -69,7 +75,7 @@ Outputs are saved under `outputs/` with a timestamped run directory.
 | Survey draft | `survey_stage/survey.txt` |
 | Mind map | `survey_stage/MindMap.txt` |
 
-![Section Divider](divider.svg)
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Project Layout
 
@@ -82,7 +88,7 @@ src/lit_agent/prompts/   # Prompt templates
 outputs/                 # Generated results
 ```
 
-![Section Divider](divider.svg)
+<div align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
 
 ## Future Direction
 
