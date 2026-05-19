@@ -1,0 +1,54 @@
+{
+  "paper_id": "Delta Deposits on Mars_ A Global Perspective.pdf",
+  "rank": 3,
+  "score": 0.024637266132111486,
+  "rrf_score": 0.02265495736286114,
+  "phrase_score": 0.25,
+  "phrase_boost": 1.0875,
+  "phrase_matches": [
+    {
+      "phrase": "ancient ocean",
+      "normalized_phrase": "ancient ocean",
+      "fields": [
+        "research_content"
+      ],
+      "score": 0.2
+    },
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 17,
+  "bm25_rank": 1,
+  "vector_score": 0.7024760842323303,
+  "bm25_score": 11.589522923957533,
+  "raw_bm25_score": 11.589522923957533,
+  "title": "Delta Deposits on Mars: A Global Perspective",
+  "year": "2021.0",
+  "journal": "Geophysical Research Letters",
+  "authors": "De Toffoli, B.; Plesa, A.‐C.; Hauber, E.; Breuer, D.",
+  "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094271",
+  "file_name": "Delta Deposits on Mars_ A Global Perspective.pdf",
+  "pdf_path": "",
+  "research_region": "Dichotomy boundary; Chryse Planitia; Acidalia Planitia; Memnonia; de Vaucouleurs Crater; Hypanis Valles",
+  "data_instruments_samples": "Context Camera (CTX) global mosaic; Mars Orbiter Laser Altimeter (MOLA) colorized elevation model; High Resolution Stereo Camera (HRSC) Digital Elevation Models; QGis software; crater size-frequency distribution analysis; impact crater statistics; global delta mapping and morphological classification",
+  "abstract_note": "Deltas have long been considered a constraining element to reconstruct the water level of an ancient ocean that may have once occupied the northern lowlands of Mars, and recently this hypothesis started to be challenged. We investigate this hypothesis and present a global inventory of fan-shaped features showing typical deltaic traits across the entire Martian surface. For each element, we provide descriptive details and classifications based on morphology, location, and relation with characterizing environmental features. In this catalog of 161 deltas, we identified only six having high potential to constrain an oceanic paleoshoreline. Nonetheless, age and location of these candidates display discrepancies with what was previously suggested from independent data sets about shoreline age and locations. Our analyses hence indicate that deltas alone are insufficient to delineate a globally consistent ancient oceanic shoreline, but they have the potential to locally constrain the water level both in space and time.",
+  "abstract": "",
+  "research_content": "This paper presents an updated global catalog of 161 delta deposits on Mars, including 68 newly identified features. The authors used geomorphological analysis of Context Camera (CTX) global mosaics and MOLA topographic data to classify deltas by morphology, basin type, and relation to water level changes. They identified 29 deltas located at the dichotomy boundary potentially related to a northern ocean margin, but only six deltas have high potential to constrain an oceanic paleoshoreline. Age and elevation analyses of these six deltas reveal discrepancies with previously proposed shoreline ages and locations, indicating that deltas alone cannot define a globally consistent ancient ocean water level on Mars. Instead, deltas likely record local-scale water level fluctuations and basin filling events.",
+  "screening_result": {
+    "row_id": 2,
+    "relevance_level": "high",
+    "is_selected": true,
+    "reason": "This paper directly investigates delta deposits in Chryse Planitia and their implications for reconstructing ancient ocean shorelines on Mars, providing direct evidence and constraints relevant to the question of an ancient ocean in Chryse Planitia."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\Delta Deposits on Mars_ A Global Perspective.md",
+  "query_centered_content": "This 2021 study provides a comprehensive global inventory and morphological characterization of 161 delta deposits on Mars, including those in the Chryse Planitia region, to assess their potential as indicators of an ancient ocean in the northern lowlands. The authors identify 29 deltas near the dichotomy boundary potentially related to a large water body, but only six—including the Chryse Planitia delta—are not enclosed in local topographic depressions and thus have higher potential to represent paleo-shorelines of an ancient ocean. However, detailed analysis reveals significant discrepancies between the elevations and ages of these candidate deltas and previously proposed shoreline locations and timings (e.g., Arabia and Deuteronilus shorelines). For the Chryse Planitia delta specifically, the estimated formation age spans Late Noachian to Early Hesperian (~2.4 Ga), but tectonic features such as grabens may have displaced its original position, complicating shoreline correlation. The study finds no consistent spatial-temporal pattern among these deltas that would support a globally coherent ocean shoreline or water level evolution. Instead, many deltas appear to have formed in isolated basins or local depressions, indicating that deltas alone cannot reliably constrain a global ancient ocean in Chryse Planitia or Mars broadly. The authors emphasize that while delta deposits can locally constrain water levels in space and time, they do not provide sufficient evidence to confirm or delineate a large northern ocean. This challenges prior interpretations that used deltas as primary proxies for a global oceanic shoreline on Mars. The study highlights uncertainties due to post-depositional tectonic modification, crater degradation, and the complex hydrological history, underscoring the need for integrated approaches combining geomorphology, stratigraphy, and modeling to better understand Mars' paleohydrology."
+}

@@ -1,0 +1,48 @@
+{
+  "paper_id": "Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.pdf",
+  "rank": 1,
+  "score": 0.025892857142857138,
+  "rrf_score": 0.023809523809523808,
+  "phrase_score": 0.25,
+  "phrase_boost": 1.0875,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "Title",
+        "research_region",
+        "research_content"
+      ],
+      "score": 0.5
+    }
+  ],
+  "vector_rank": 4,
+  "bm25_rank": 4,
+  "vector_score": 0.7138204574584961,
+  "bm25_score": 7.917914380370022,
+  "raw_bm25_score": 7.917914380370022,
+  "title": "Small edifice features in Chryse Planitia, Mars: Assessment of a mud volcano hypothesis",
+  "year": "2016.0",
+  "journal": "Icarus",
+  "authors": "Komatsu, Goro; Okubo, Chris H.; Wray, James J.; Ojha, Lujendra; Cardinale, Marco; Murana, Alessio; Orosei, Roberto; Chan, Marjorie A.; Ormö, Jens; Gallagher, Ronnie",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0019103515005989",
+  "file_name": "Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.pdf",
+  "pdf_path": "",
+  "research_region": "Chryse Planitia",
+  "data_instruments_samples": "HiRISE images and digital terrain models; CRISM VNIR and IR spectral data; SHARAD radargrams; THEMIS daytime infrared and visible images; CTX images",
+  "abstract_note": "Small ediﬁce features that are less than a few kilometers in diameter and up to a few hundred meters in height are widely distributed in Chryse Planitia on Mars. They exhibit a broad range of morphological properties that are here classiﬁed as Type 1 (steep-sided cones typically with a summit crater), Type 2 (nearly ﬂat features with single or multiple central/summit craters or cones) and Type 3 (nearly circular features in plan view, characterized by steep sides and a broadly ﬂat summit area). Their origins have not been determined with certainty, but our study utilizing the High Resolution Imaging Science Experiment (HiRISE) images supports the interpretation of mud volcanism, based on the observed morphological characteristics of these small ediﬁces and comparisons with terrestrial analogs. Additionally, hydrated minerals detected on these ediﬁce features in data from the Compact Reconnaissance Imaging Spectrometer for Mars (CRISM), further support the mud volcano hypothesis. Injection features such as clastic mega-pipes and sand blow features may coexist with the mud volcanoes. Alternative mechanisms such as magmatic volcanism are not excluded, but they have less support from our remote sensing observations. Further conﬁrmation or rejection of the mud volcano hypothesis will require in-situ investigation by landers or rovers.",
+  "abstract": "",
+  "research_content": "This paper presents a detailed remote sensing study of small edifice features in Chryse Planitia, Mars, to assess the mud volcano hypothesis. The authors utilized high-resolution HiRISE images, CRISM spectral data, and SHARAD radar sounding to analyze morphological types, mineralogy, and subsurface structure of these features. They classified the small edifices into three types based on morphology and found nanophase ferric minerals and hydrated minerals on the edifices, supporting involvement of water. The SHARAD data showed no clear subsurface reflectors, suggesting a dry present-day subsurface. The study concludes that the small edifices are consistent with mud volcanism with some peculiarities unique to Mars, though alternative origins such as magmatic volcanism are not excluded.",
+  "screening_result": {
+    "row_id": 0,
+    "relevance_level": "medium",
+    "is_selected": true,
+    "reason": "The paper discusses features in Chryse Planitia that may relate to geological processes involving water, which could provide context for the existence of an ancient ocean."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.md",
+  "query_centered_content": "The study presents evidence supporting the hypothesis of mud volcanism in Chryse Planitia, which may imply the historical presence of liquid water, potentially linked to an ancient ocean. The morphological characteristics of the small edifice features, classified into three types, exhibit similarities to terrestrial mud volcanoes, suggesting a fluid-rich origin. Additionally, the detection of hydrated minerals further supports the involvement of water in the formation of these features. However, the paper acknowledges that while mud volcanism is a plausible explanation, alternative mechanisms such as magmatic volcanism cannot be entirely ruled out. The authors emphasize the need for in-situ investigations to confirm the mud volcano hypothesis and its implications for understanding Mars' hydrological history."
+}

@@ -1,0 +1,46 @@
+{
+  "paper_id": "On the origin of the Vastitas Borealis Formation in Chryse and Acidalia Planitiae, Mars.pdf",
+  "rank": 10,
+  "score": 0.021341013824884795,
+  "rrf_score": 0.020276497695852536,
+  "phrase_score": 0.15,
+  "phrase_boost": 1.0525,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 25,
+  "bm25_rank": 13,
+  "vector_score": 0.6945252418518066,
+  "bm25_score": 4.546122202725259,
+  "raw_bm25_score": 4.546122202725259,
+  "title": "On the origin of the Vastitas Borealis Formation in Chryse and Acidalia Planitiae, Mars",
+  "year": "2014.0",
+  "journal": "Journal of Geophysical Research: Planets",
+  "authors": "Salvatore, M. R.; Christensen, P. R.",
+  "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JE004682",
+  "file_name": "On the origin of the Vastitas Borealis Formation in Chryse and Acidalia Planitiae, Mars.pdf",
+  "pdf_path": "",
+  "research_region": "Chryse Planitia; Acidalia Planitia",
+  "data_instruments_samples": "Thermal Emission Imaging System (THEMIS) visible and infrared imagery; Context Camera (CTX) images; High Resolution Imaging Science Experiment (HiRISE) images; Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) hyperspectral data; Mars Orbiter Laser Altimeter (MOLA) topographic data; Mars Advanced Radar for Subsurface and Ionosphere Sounding (MARSIS) radar data; Monte Carlo subsurface models; thermal inertia modeling",
+  "abstract_note": "The geologic history of the northern plains of Mars has been extensively debated. Speciﬁcally, the Vastitas Borealis Formation (VBF) represents an enigmatic surface unit that exhibits ﬂow morphologies at its boundary, extensive surface fracturing, tens of thousands of small mounds, and unique crater morphologies. Here we test the hypothesis that the VBF in the region of Chryse and Acidalia Planitiae, Mars, originated through the compaction and later expulsion of ﬂuid-laden sediments sourced from the shallow subsurface. We ﬁnd that the morphological, thermophysical, and spectral properties of the VBF marginal unit, in addition to the recent identiﬁcation of ﬁne-grained sedimentary layers in the shallow subsurface, are all consistent with such a formation mechanism. Estimates of volume loss based on “collar-like” morphologies present on high-standing buttes suggest that a minimum ﬂuid volume of ~13,500 km3 was expelled from the subsurface, making the VBF a signiﬁcant ancient hydrologic reservoir on the Martian surface. This formation mechanism lends additional insight into the sedimentary and aqueous history of the northern plains of Mars and unites morphologic, spectral, thermophysical, and structural observations under one consistent formation hypothesis.",
+  "abstract": "",
+  "research_content": "This paper tests the hypothesis that the Vastitas Borealis Formation (VBF) in Chryse and Acidalia Planitiae formed through the compaction and expulsion of fluid-laden sediments from the shallow subsurface following outflow channel activity. The authors analyzed morphological, thermophysical, spectral, and geophysical data sets, including THEMIS, CTX, HiRISE imagery, CRISM hyperspectral data, MOLA topography, and MARSIS radar measurements. They identified thickening subsurface sedimentary units, surface deflation evidenced by perched collar morphologies on buttes, and thermophysical and spectral similarities between the VBF marginal unit, mud volcanoes, and subsurface sedimentary layers. Their findings support a formation mechanism involving deposition, burial, compaction, mud extrusion, and surface subsidence, implying massive volumes of water and sediment were involved in the northern plains' sedimentary history.",
+  "screening_result": {
+    "row_id": 4,
+    "relevance_level": "high",
+    "is_selected": true,
+    "reason": "The paper tests hypotheses about the Vastitas Borealis Formation in Chryse Planitia involving fluid-laden sediment expulsion and identifies a significant ancient hydrologic reservoir, directly relevant to the question of an ancient ocean in the region."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\On the origin of the Vastitas Borealis Formation in Chryse and Acidalia Planitiae, Mars.md",
+  "query_centered_content": "This 2014 study by Salvatore and Christensen provides strong multidisciplinary evidence supporting that the Vastitas Borealis Formation (VBF) in Chryse Planitia originated from the deposition, burial, compaction, and subsequent expulsion of fluid-laden (muddy) sediments sourced from the shallow subsurface. Key findings include the identification of a thickening subsurface sedimentary unit away from outflow channels, the presence of VBF-like morphologies beyond the mapped surface extent of the VBF, and surface deflation features consistent with sediment expulsion. Thermophysical and spectral analyses reveal that the VBF marginal unit, mud volcanoes, and subsurface sedimentary layers share similar fine-grained sedimentary compositions, distinct from the underlying basaltic plains. Volume estimates suggest that at least ~13,500 km3 of fluid was expelled, indicating a significant ancient hydrologic reservoir. While the study does not provide unequivocal evidence for a long-lived northern ocean, it implies that oceanic-scale volumes of water were likely involved in sediment transport and deposition in the northern plains. The authors discuss alternative scenarios, including episodic outflow channel flooding without a persistent ocean, consistent with the preservation of unaltered mafic minerals beneath the sedimentary layers. Limitations include difficulty in extending spectral and thermophysical analyses beyond Chryse and Acidalia due to dust cover and uncertainties in timing and duration of water-related events. Overall, this work advances the understanding that an ancient, extensive, fluid-rich sedimentary system existed in Chryse Planitia, strongly supporting the presence of large volumes of liquid water in Mars' northern lowlands, which may have been oceanic in scale but not necessarily a stable ocean."
+}

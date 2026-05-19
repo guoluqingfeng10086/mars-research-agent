@@ -1,0 +1,15 @@
+{
+  "query": "Did an ancient ocean exist in the Chryse Planitia of Mars?",
+  "run_keyword": "Chryse_Planitia_ancient_ocean",
+  "top_m": 20,
+  "batch_size": 5,
+  "survey_mode": "middle",
+  "content_source": "md",
+  "md_corpus_dir": "G:\\MMCorpus2000v1_md",
+  "max_pdf_chars": null,
+  "use_cache": true,
+  "run_time": "2026-05-19 11:58:17",
+  "run_output_dir": "G:\\research agent\\outputs\\Chryse_Planitia_ancient_ocean_20260519_115816_md_middle",
+  "search_output_dir": "G:\\research agent\\outputs\\Chryse_Planitia_ancient_ocean_20260519_115816_md_middle\\search_stage",
+  "survey_output_dir": "G:\\research agent\\outputs\\Chryse_Planitia_ancient_ocean_20260519_115816_md_middle\\survey_stage"
+}

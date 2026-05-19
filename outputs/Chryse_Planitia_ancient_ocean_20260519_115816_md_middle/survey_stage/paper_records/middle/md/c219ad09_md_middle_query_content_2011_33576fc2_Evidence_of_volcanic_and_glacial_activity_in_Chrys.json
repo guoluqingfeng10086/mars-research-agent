@@ -1,0 +1,46 @@
+{
+  "paper_id": "Evidence of volcanic and glacial activity in Chryse and Acidalia Planitiae, Mars.pdf",
+  "rank": 6,
+  "score": 0.023786069969356487,
+  "rrf_score": 0.02259959141981614,
+  "phrase_score": 0.15,
+  "phrase_boost": 1.0525,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 8,
+  "bm25_rank": 9,
+  "vector_score": 0.7122170925140381,
+  "bm25_score": 5.1216129322107244,
+  "raw_bm25_score": 5.1216129322107244,
+  "title": "Evidence of volcanic and glacial activity in Chryse and Acidalia Planitiae, Mars",
+  "year": "2011.0",
+  "journal": "Icarus",
+  "authors": "Martínez-Alonso, Sara; Mellon, Michael T.; Banks, Maria E.; Keszthelyi, Laszlo P.; McEwen, Alfred S.",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0019103511000054",
+  "file_name": "Evidence of volcanic and glacial activity in Chryse and Acidalia Planitiae, Mars.pdf",
+  "pdf_path": "",
+  "research_region": "Chryse Planitia; Acidalia Planitia",
+  "data_instruments_samples": "HiRISE images; MOLA elevation data; MOC narrow-angle images; THEMIS visible and infrared images; CTX images; CRISM spectral data; HiRISE stereo anaglyphs",
+  "abstract_note": "Chryse and Acidalia Planitiae show numerous examples of enigmatic landforms previously interpreted to have been inﬂuenced by a water/ice-rich geologic history. These landforms include giant polygons bounded by kilometer-scale arcuate troughs, bright pitted mounds, and mesa-like features. To investigate the signiﬁcance of the last we have analyzed in detail the region between 60°N, 290°E and 10°N, 360°E utilizing HiRISE (High Resolution Imaging Science Experiment) images as well as regional-scale data for context. The mesas may be analogous to terrestrial tuyas (emergent sub-ice volcanoes), although deﬁnitive proof has not been identiﬁed. We also report on a blocky unit and associated landforms (drumlins, eskers, inverted valleys, kettle holes) consistent with ice-emplaced volcanic or volcano-sedimentary ﬂows. The spatial association between tuya-like mesas, ice-emplaced ﬂows, and further possible evidence of volcanism (deﬂated ﬂow fronts, volcanic vents, columnar jointing, rootless cones), and an extensive ﬂuid-rich substratum (giant polygons, bright mounds, rampart craters), allows for the possibility of glaciovolcanic activity in the region.",
+  "abstract": "",
+  "research_content": "This paper investigates enigmatic landforms in Chryse and Acidalia Planitiae, Mars, to assess evidence of volcanic and glacial activity. The authors analyzed approximately 190 HiRISE images, along with MOLA, MOC, THEMIS, CTX, and CRISM data, focusing on mesas, blocky units, and associated landforms such as drumlins, eskers, kettles, giant polygons, bright mounds, and rampart craters. They identify mesas with central edifices resembling terrestrial tuyas, blocky units consistent with ice-emplaced volcanic or volcano-sedimentary flows, and glacial landforms indicative of past ice-sheet activity. The spatial association of these features suggests possible glaciovolcanic activity and a fluid-rich substratum in the region, implying a paleoclimate different from present conditions.",
+  "screening_result": {
+    "row_id": 0,
+    "relevance_level": "medium",
+    "is_selected": true,
+    "reason": "The paper discusses enigmatic landforms in Chryse Planitia that have been interpreted as influenced by water/ice-rich history, including possible glaciovolcanic activity. While it does not directly address an ancient ocean, it provides relevant geological context about water-related processes in the region."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\Evidence of volcanic and glacial activity in Chryse and Acidalia Planitiae, Mars.md",
+  "query_centered_content": "This 2011 study provides significant geological evidence supporting the presence of extensive ice-related processes in Chryse Planitia, which has implications for the existence of an ancient ocean or large ice sheet in the region. The authors identify landforms analogous to terrestrial glaciovolcanic features such as tuyas (sub-ice volcanoes), drumlins, eskers, and kettle holes, as well as volcanic constructs including mesas with central edifices, blocky units with flow-like deposits, and rootless cones indicative of lava-water interaction. These features suggest that Chryse Planitia was once covered by a substantial ice sheet, possibly formed either by accumulation during periods of high obliquity or by in-place freezing of water released from catastrophic outflow channels. The spatial distribution of mesas along a belt of near-constant elevation supports the hypothesis of volcanic activity beneath an ice sheet, consistent with glaciovolcanic processes. The blocky unit's morphology and spectral signatures (Mg- and Fe-smectites) further indicate volcanic or volcano-sedimentary flows interacting with ice. While the study does not provide direct evidence for a standing ancient ocean, it strongly supports the presence of a fluid-rich substratum and extensive ice deposits in Chryse Planitia during the late Hesperian to early Amazonian periods. The authors propose three models integrating volcanic and glacial activity, all requiring significant ice presence but differing in volcanic source and timing. Limitations include the lack of definitive diagnostic features such as pillow lavas conclusively proving subaqueous volcanism and the difficulty in precise age dating due to mantling and resurfacing. Overall, this work advances the research status by linking geomorphological and compositional evidence to a scenario of glaciovolcanic activity in Chryse Planitia, implying that substantial ice coverage—and by extension, possibly an ancient ocean or large ice sheet—existed in this region of Mars."
+}

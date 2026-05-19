@@ -1,0 +1,46 @@
+{
+  "paper_id": "The stratigraphy and history of Mars' northern lowlands through mineralogy of impact craters_ A comprehensive survey.pdf",
+  "rank": 17,
+  "score": 0.01543971648720735,
+  "rrf_score": 0.014669564358391781,
+  "phrase_score": 0.15,
+  "phrase_boost": 1.0525,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 111,
+  "bm25_rank": 26,
+  "vector_score": 0.6731208562850952,
+  "bm25_score": 3.9297659215939444,
+  "raw_bm25_score": 3.9297659215939444,
+  "title": "The stratigraphy and history of Mars' northern lowlands through mineralogy of impact craters: A comprehensive survey",
+  "year": "2017.0",
+  "journal": "Journal of Geophysical Research: Planets",
+  "authors": "Pan, Lu; Ehlmann, Bethany L.; Carter, John; Ernst, Carolyn M.",
+  "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2017JE005276",
+  "file_name": "The stratigraphy and history of Mars' northern lowlands through mineralogy of impact craters_ A comprehensive survey.pdf",
+  "pdf_path": "",
+  "research_region": "Mars northern lowlands; Chryse Planitia; Acidalia Planitia; Scandia region; Arcadia Planitia; Elysium Planitia; Utopia Planitia; Lyot vicinity",
+  "data_instruments_samples": "CRISM L-detector targeted images (1.0–2.6 μm) from Mars Reconnaissance Orbiter; CRISM S-detector data (0.4–1.0 μm) for select hydrated mineral detections; Mars Orbiter Laser Altimeter (MOLA) topography data; Thermal Emission Spectrometer (TES) dust cover index; Mars global crater database; noise reduction and spectral parameter mapping algorithms; logistic regression and statistical tests",
+  "abstract_note": "The basin-ﬁlling materials of the northern lowlands, which cover approximately one third of Mars’ surface, record the long-term evolution of Mars’ geology and climate. The buried stratigraphy was inferred through analyses of impact crater mineralogy, detected using data acquired by the Compact Reconnaissance Imaging Spectrometer for Mars. Examining 1045 impact craters across the northern lowlands, we ﬁnd widespread olivine and pyroxene and diverse hydrated/hydroxylated minerals, including Fe/Mg smectite, chlorite, prehnite, and hydrated silica. The distribution of maﬁc minerals is consistent with inﬁlling volcanic materials across the entire lowlands (~1–4 × 107 km3), indicating a signiﬁcant volume of volatile release by volcanic outgassing. Hydrated/hydroxylated minerals are detected more frequently in large craters, consistent with the scenario that the hydrated minerals are being excavated from deep basement rocks, beneath 1–2 km thick maﬁc lava ﬂows or volcaniclastic materials. The prevalences of different types of hydrated minerals are similar to statistics from the southern highlands. No evidence of concentrated salt deposits has been found, which would indicate a long-lived global ocean. We also ﬁnd signiﬁcant geographical variations of local mineralogy and stratigraphy in different basins (geological provinces), independent of dust cover. For example, many hydrated and maﬁc minerals are newly discovered within the polar Scandia region (>60°N), and Chryse Planitia has more maﬁc mineral detections than other basins, possibly due to a previously unrecognized volcanic source. Plain Language Summary The northern lowlands of Mars (encompassing one third of the planet’s surface area) could have hosted a global ocean in the past. The lowlands are composed of several topographic depressions (“basins”) ﬁlled with sediments, which mask the nature of the underlying crust. Impact craters excavate up to several kilometers into the subsurface of the lowlands and expose the hidden record of its geologic history. Our comprehensive survey of the subsurface mineralogy excavated by these impact craters reveals widespread volcanic and hydrated silicate minerals. We did not ﬁnd widespread carbonate, chloride, or sulfate salts, which would have suggested a long-lived global ocean. However, our observations do suggest that impact craters have excavated a crust made of 1 to 2 km of volcanic material, which is on top of a water-altered basement containing hydrated silicate minerals. We have also discovered local variations in the different basins with evidence for new volcanic sources and for hydrated minerals in ancient crust near the north polar cap.",
+  "abstract": "",
+  "research_content": "This paper presents a comprehensive survey of the mineralogy excavated by 1045 impact craters in Mars' northern lowlands using CRISM targeted spectral data. The authors applied an improved noise reduction algorithm to analyze CRISM L-detector images covering crater central peaks, walls, floors, and ejecta to identify mafic and hydrated minerals. They found widespread olivine and pyroxene indicating buried volcanic units with volumes greater than prior estimates, and diverse hydrated minerals including Fe/Mg smectites, chlorite/prehnite, and hydrated silica consistent with excavation of an aqueously altered ancient basement beneath 1–2 km thick mafic lava flows. Statistical analyses show that hydrated minerals are more frequently detected in larger craters, suggesting a deeper origin, and regional variations in mineralogy reveal local geological histories. No strong evidence was found for widespread carbonates or evaporative salts to support a global ocean hypothesis. The study constrains the subsurface stratigraphy of the northern lowlands, indicating a thick mafic volcanic layer overlying an altered basement and a surface layer with no distinct mineral signatures.",
+  "screening_result": {
+    "row_id": 1,
+    "relevance_level": "high",
+    "is_selected": true,
+    "reason": "This paper directly addresses the northern lowlands of Mars including Chryse Planitia, analyzing mineralogy and stratigraphy related to water alteration and the lack of evidence for a long-lived global ocean, providing direct evidence relevant to the question of an ancient ocean in Chryse Planitia."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\The stratigraphy and history of Mars' northern lowlands through mineralogy of impact craters_ A comprehensive survey.md",
+  "query_centered_content": "This 2017 comprehensive survey of 1045 impact craters across Mars' northern lowlands, including Chryse Planitia, provides critical mineralogical and stratigraphic constraints relevant to the question of an ancient ocean in Chryse Planitia. The study finds widespread mafic minerals (olivine and pyroxene) consistent with a thick (1–2 km) volcanic infill layer beneath the surface sediments, and diverse hydrated/hydroxylated minerals (Fe/Mg smectites, chlorite/prehnite, hydrated silica) excavated primarily from deeper basement rocks. Importantly, no concentrated salt deposits such as carbonates, sulfates, or chlorides—minerals expected from prolonged ocean evaporation—were detected in the northern lowlands or Chryse Planitia. The hydrated minerals resemble those found in the southern highlands and are interpreted as products of ancient aqueous alteration of basement crust rather than ocean sedimentation. The lack of mineralogical evidence for evaporitic salts or carbonate-rich layers argues against the presence of a long-lived, extensive northern ocean. Regional variations show Chryse Planitia has a notably higher abundance of mafic minerals, possibly indicating a previously unrecognized volcanic source rather than oceanic sediment deposits. Small crater exposures of hydrated silica in Acidalia Planitia suggest localized aqueous alteration unrelated to oceanic processes. The study acknowledges limitations due to dust cover, crater degradation, and spectral resolution, which may obscure some mineral detections, but the overall absence of ocean-related mineral signatures is robust. Thus, this work significantly constrains the hypothesis of an ancient ocean in Chryse Planitia, favoring instead a scenario of volcanic infill overlying an aqueously altered Noachian basement without a pervasive oceanic sedimentary record."
+}

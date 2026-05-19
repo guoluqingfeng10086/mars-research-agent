@@ -1,0 +1,137 @@
+[
+  {
+    "paper_id": "Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.pdf",
+    "rank": 1,
+    "score": 0.025892857142857138,
+    "rrf_score": 0.023809523809523808,
+    "phrase_score": 0.25,
+    "phrase_boost": 1.0875,
+    "phrase_matches": [
+      {
+        "phrase": "Chryse Planitia",
+        "normalized_phrase": "chryse planitia",
+        "fields": [
+          "Title",
+          "research_region",
+          "research_content"
+        ],
+        "score": 0.5
+      }
+    ],
+    "vector_rank": 4,
+    "bm25_rank": 4,
+    "vector_score": 0.7138204574584961,
+    "bm25_score": 7.917914380370022,
+    "raw_bm25_score": 7.917914380370022,
+    "title": "Small edifice features in Chryse Planitia, Mars: Assessment of a mud volcano hypothesis",
+    "year": "2016.0",
+    "journal": "Icarus",
+    "authors": "Komatsu, Goro; Okubo, Chris H.; Wray, James J.; Ojha, Lujendra; Cardinale, Marco; Murana, Alessio; Orosei, Roberto; Chan, Marjorie A.; Ormö, Jens; Gallagher, Ronnie",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0019103515005989",
+    "file_name": "Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.pdf",
+    "pdf_path": "",
+    "research_region": "Chryse Planitia",
+    "data_instruments_samples": "HiRISE images and digital terrain models; CRISM VNIR and IR spectral data; SHARAD radargrams; THEMIS daytime infrared and visible images; CTX images",
+    "abstract_note": "Small ediﬁce features that are less than a few kilometers in diameter and up to a few hundred meters in height are widely distributed in Chryse Planitia on Mars. They exhibit a broad range of morphological properties that are here classiﬁed as Type 1 (steep-sided cones typically with a summit crater), Type 2 (nearly ﬂat features with single or multiple central/summit craters or cones) and Type 3 (nearly circular features in plan view, characterized by steep sides and a broadly ﬂat summit area). Their origins have not been determined with certainty, but our study utilizing the High Resolution Imaging Science Experiment (HiRISE) images supports the interpretation of mud volcanism, based on the observed morphological characteristics of these small ediﬁces and comparisons with terrestrial analogs. Additionally, hydrated minerals detected on these ediﬁce features in data from the Compact Reconnaissance Imaging Spectrometer for Mars (CRISM), further support the mud volcano hypothesis. Injection features such as clastic mega-pipes and sand blow features may coexist with the mud volcanoes. Alternative mechanisms such as magmatic volcanism are not excluded, but they have less support from our remote sensing observations. Further conﬁrmation or rejection of the mud volcano hypothesis will require in-situ investigation by landers or rovers.",
+    "abstract": "",
+    "research_content": "This paper presents a detailed remote sensing study of small edifice features in Chryse Planitia, Mars, to assess the mud volcano hypothesis. The authors utilized high-resolution HiRISE images, CRISM spectral data, and SHARAD radar sounding to analyze morphological types, mineralogy, and subsurface structure of these features. They classified the small edifices into three types based on morphology and found nanophase ferric minerals and hydrated minerals on the edifices, supporting involvement of water. The SHARAD data showed no clear subsurface reflectors, suggesting a dry present-day subsurface. The study concludes that the small edifices are consistent with mud volcanism with some peculiarities unique to Mars, though alternative origins such as magmatic volcanism are not excluded.",
+    "screening_result": {
+      "row_id": 0,
+      "relevance_level": "medium",
+      "is_selected": true,
+      "reason": "The paper discusses features in Chryse Planitia that may relate to geological processes involving water, which could provide context for the existence of an ancient ocean."
+    }
+  },
+  {
+    "paper_id": "Delta Deposits on Mars_ A Global Perspective.pdf",
+    "rank": 3,
+    "score": 0.024637266132111486,
+    "rrf_score": 0.02265495736286114,
+    "phrase_score": 0.25,
+    "phrase_boost": 1.0875,
+    "phrase_matches": [
+      {
+        "phrase": "ancient ocean",
+        "normalized_phrase": "ancient ocean",
+        "fields": [
+          "research_content"
+        ],
+        "score": 0.2
+      },
+      {
+        "phrase": "Chryse Planitia",
+        "normalized_phrase": "chryse planitia",
+        "fields": [
+          "research_region"
+        ],
+        "score": 0.3
+      }
+    ],
+    "vector_rank": 17,
+    "bm25_rank": 1,
+    "vector_score": 0.7024760842323303,
+    "bm25_score": 11.589522923957533,
+    "raw_bm25_score": 11.589522923957533,
+    "title": "Delta Deposits on Mars: A Global Perspective",
+    "year": "2021.0",
+    "journal": "Geophysical Research Letters",
+    "authors": "De Toffoli, B.; Plesa, A.‐C.; Hauber, E.; Breuer, D.",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094271",
+    "file_name": "Delta Deposits on Mars_ A Global Perspective.pdf",
+    "pdf_path": "",
+    "research_region": "Dichotomy boundary; Chryse Planitia; Acidalia Planitia; Memnonia; de Vaucouleurs Crater; Hypanis Valles",
+    "data_instruments_samples": "Context Camera (CTX) global mosaic; Mars Orbiter Laser Altimeter (MOLA) colorized elevation model; High Resolution Stereo Camera (HRSC) Digital Elevation Models; QGis software; crater size-frequency distribution analysis; impact crater statistics; global delta mapping and morphological classification",
+    "abstract_note": "Deltas have long been considered a constraining element to reconstruct the water level of an ancient ocean that may have once occupied the northern lowlands of Mars, and recently this hypothesis started to be challenged. We investigate this hypothesis and present a global inventory of fan-shaped features showing typical deltaic traits across the entire Martian surface. For each element, we provide descriptive details and classifications based on morphology, location, and relation with characterizing environmental features. In this catalog of 161 deltas, we identified only six having high potential to constrain an oceanic paleoshoreline. Nonetheless, age and location of these candidates display discrepancies with what was previously suggested from independent data sets about shoreline age and locations. Our analyses hence indicate that deltas alone are insufficient to delineate a globally consistent ancient oceanic shoreline, but they have the potential to locally constrain the water level both in space and time.",
+    "abstract": "",
+    "research_content": "This paper presents an updated global catalog of 161 delta deposits on Mars, including 68 newly identified features. The authors used geomorphological analysis of Context Camera (CTX) global mosaics and MOLA topographic data to classify deltas by morphology, basin type, and relation to water level changes. They identified 29 deltas located at the dichotomy boundary potentially related to a northern ocean margin, but only six deltas have high potential to constrain an oceanic paleoshoreline. Age and elevation analyses of these six deltas reveal discrepancies with previously proposed shoreline ages and locations, indicating that deltas alone cannot define a globally consistent ancient ocean water level on Mars. Instead, deltas likely record local-scale water level fluctuations and basin filling events.",
+    "screening_result": {
+      "row_id": 2,
+      "relevance_level": "high",
+      "is_selected": true,
+      "reason": "The paper directly investigates delta deposits in Chryse Planitia and their implications for reconstructing the water level of an ancient ocean, making it highly relevant."
+    }
+  },
+  {
+    "paper_id": "Morphology, Morphometry and Distribution of Isolated Landforms in Southern Chryse Planitia, Mars.pdf",
+    "rank": 4,
+    "score": 0.024363266583229036,
+    "rrf_score": 0.022403003754693368,
+    "phrase_score": 0.25,
+    "phrase_boost": 1.0875,
+    "phrase_matches": [
+      {
+        "phrase": "Chryse Planitia",
+        "normalized_phrase": "chryse planitia",
+        "fields": [
+          "Title",
+          "research_region",
+          "research_content"
+        ],
+        "score": 0.5
+      }
+    ],
+    "vector_rank": 14,
+    "bm25_rank": 5,
+    "vector_score": 0.7076361179351807,
+    "bm25_score": 7.587916388449571,
+    "raw_bm25_score": 7.587916388449571,
+    "title": "Morphology, Morphometry and Distribution of Isolated Landforms in Southern Chryse Planitia, Mars",
+    "year": "2021.0",
+    "journal": "Journal of Geophysical Research: Planets",
+    "authors": "McNeil, Joseph D.; Fawdon, Peter; Balme, Matthew R.; Coe, Angela L.",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JE006775",
+    "file_name": "Morphology, Morphometry and Distribution of Isolated Landforms in Southern Chryse Planitia, Mars.pdf",
+    "pdf_path": "",
+    "research_region": "Southern Chryse Planitia; Oxia Planum; Mawrth Vallis",
+    "data_instruments_samples": "Mars Orbital Laser Altimeter (MOLA) point data; High Resolution Stereo Camera (HRSC) digital terrain models; Context Camera (CTX) images; High Resolution Imaging Science Experiment (HiRISE) images; Thermal Emission Imaging System (THEMIS) nighttime infrared data; GIS analysis using ArcGIS; manual digitization of mound margins and prominences",
+    "abstract_note": "The margin of Chryse Planitia, Mars, contains >105 kilometer-scale mesas, buttes, and plateaus (“mounds”), many of which are found in and around Oxia Planum, the ExoMars 2022 Rover landing site. Despite this, their origins and evolution are unknown. We have analyzed the morphologies and morphometries of 14,386 individual mounds to: (1) classify them based on their geomorphology; (2) constrain when they formed based on their stratigraphic and spatial relationships; and (3) develop hypotheses for their geological history. The mounds are classified as compound mounds, mesas, clustered mounds, and hills. Mound heights show that their elevations above the plains tend to a maximum height of 500 m. We interpret this as the thickness of a previously continuous layer that extended several hundred kilometers from the southern highlands into Chryse Planitia. Stratigraphy constrains the deposition of this layer to the Early-Middle Noachian, correlatable to the phyllosilicate-bearing strata of Mawrth Vallis, with similar layering also observable in some mounds, suggesting a genetic relationship. The mounds sometimes occur in circular arrangements, interpreted as an association with buried impact structures. We propose that the mounds formed through differential erosion after the premound layer was indurated by mineralization from groundwater in areas superposing underlying crustal weaknesses, for example, at buried crater margins. The subsequent differential erosion of this layer preferentially removed areas unaffected by this induration in the Late Noachian-Early Hesperian leaving the mound population seen at present. These features present accessible three-dimensional exposures of ancient layered rocks, and so are exciting targets for future study.",
+    "abstract": "",
+    "research_content": "The authors systematically identified and classified 14,386 isolated mounds in southern Chryse Planitia into four morphological classes: hills, mesas, clustered mounds, and compound mounds. They measured mound morphometry using MOLA and HRSC elevation data, analyzed their spatial distribution, and examined stratigraphic relationships using CTX and HiRISE imagery. The study finds that the mounds are erosional remnants of a once-continuous, approximately 500 m thick Early to Middle Noachian layer, likely lithified and indurated by groundwater mineralization, with some mounds containing layering similar to the clay-bearing strata of Mawrth Vallis. The mounds predate the Late Noachian to Early Hesperian dark plains and are interpreted as preferentially preserved due to mineral cementation along crustal fractures and buried impact crater margins.",
+    "screening_result": {
+      "row_id": 3,
+      "relevance_level": "medium",
+      "is_selected": true,
+      "reason": "The analysis of landforms in Southern Chryse Planitia may provide insights into the geological history and water-related processes that could relate to the existence of an ancient ocean."
+    }
+  }
+]

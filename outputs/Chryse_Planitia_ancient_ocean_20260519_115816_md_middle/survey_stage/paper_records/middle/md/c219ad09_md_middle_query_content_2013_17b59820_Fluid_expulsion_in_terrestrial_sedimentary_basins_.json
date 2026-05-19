@@ -1,0 +1,46 @@
+{
+  "paper_id": "Fluid expulsion in terrestrial sedimentary basins_ A process providing potential analogs for giant polygons and mounds in the martian lowlands.pdf",
+  "rank": 9,
+  "score": 0.022121510673234812,
+  "rrf_score": 0.021018062397372743,
+  "phrase_score": 0.15,
+  "phrase_boost": 1.0525,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 7,
+  "bm25_rank": 25,
+  "vector_score": 0.7124544382095337,
+  "bm25_score": 4.130358522880802,
+  "raw_bm25_score": 4.130358522880802,
+  "title": "Fluid expulsion in terrestrial sedimentary basins: A process providing potential analogs for giant polygons and mounds in the martian lowlands",
+  "year": "2013.0",
+  "journal": "Icarus",
+  "authors": "Allen, Carlton C.; Oehler, Dorothy Z.; Etiope, Giuseppe; Rensbergen, Pieter Van; Baciu, Calin; Feyzullayev, Akper; Martinelli, Giovanni; Tanaka, Kazuhiro; Rooij, David Van",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S0019103512003910",
+  "file_name": "Fluid expulsion in terrestrial sedimentary basins_ A process providing potential analogs for giant polygons and mounds in the martian lowlands.pdf",
+  "pdf_path": "",
+  "research_region": "Chryse Planitia; Acidalia Planitia",
+  "data_instruments_samples": "Mars Reconnaissance Orbiter CTX images; HiRISE images; CRISM spectral data; Viking Mars Digital Image Model (MDIM); Mars Orbital Laser Altimeter (MOLA); Thermal Emission Imaging System (THEMIS); terrestrial seismic data and bathymetric surveys from Gulf of Cadiz, North Sea, Norwegian margin, and other sedimentary basins; geological mapping and basin analysis",
+  "abstract_note": "On Earth, burial of ﬁne-grained sediments in offshore passive margins (e.g., underwater fans and deltas) commonly results in ﬂuid expulsion features including large-scale polygonal fractures, mud volcanoes, and pockmarks. Comparison of resulting offshore polygons and mud volcanoes with giant polygons and high-albedo mounds in the Chryse–Acidalia region of Mars shows the terrestrial and martian features to be similar in size, morphology, geologic context, and general co-occurrence within the same basin. These similarities suggest that the process of terrestrial ﬂuid expulsion may provide an analog that could link the giant polygons and mounds in Chryse and Acidalia to a single process.",
+  "abstract": "",
+  "research_content": "This paper presents the hypothesis that fluid expulsion features in terrestrial sedimentary basins, such as large-scale polygonal fractures and mud volcanoes, provide potential analogs for giant polygons and high-albedo mounds in the Chryse–Acidalia region of Mars. The authors compare terrestrial fluid-expulsion features with Martian features in terms of geologic setting, morphology, size, spatial distribution, and sedimentary processes. They analyze the spatial correlation of mounds and giant polygons in northern Chryse and southern Acidalia Planitiae using high-resolution orbital imagery (CTX and HiRISE) and spectral data from CRISM. The study finds that the Martian giant polygons and mounds share similarities with terrestrial fluid-expulsion features in size, morphology, and geologic context, suggesting a linked formation process involving sediment deposition, dewatering, and fluid escape. The authors discuss implications for the role of water and methane release in the Martian lowlands and propose that the Martian features may represent an intermediate form of fluid expulsion analogous to terrestrial mud volcanoes and polygonal fault systems.",
+  "screening_result": {
+    "row_id": 3,
+    "relevance_level": "medium",
+    "is_selected": true,
+    "reason": "The paper compares terrestrial fluid expulsion features with giant polygons and mounds in Chryse Planitia, suggesting processes involving fluid movement in the subsurface. This provides useful analogs and context for interpreting water-related features in the region."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\Fluid expulsion in terrestrial sedimentary basins_ A process providing potential analogs for giant polygons and mounds in the martian lowlands.md",
+  "query_centered_content": "This paper advances the hypothesis that the giant polygons and high-albedo mounds observed in the Chryse Planitia region of Mars are analogous to terrestrial fluid expulsion features such as polygonal faults and mud volcanoes found in fine-grained sedimentary basins on Earth. The authors provide a detailed comparison of morphology, size, spatial distribution, and geologic context between terrestrial fluid expulsion features and the martian polygons and mounds, highlighting similarities that support a shared formation process involving sediment deposition from ancient floods, subsequent sediment compaction, and fluid overpressure leading to dewatering and extrusion. The study emphasizes that the Chryse–Acidalia region's geologic setting—characterized by fine-grained distal facies sediments deposited by Hesperian outflows and a passive-margin-like stress regime—is consistent with conditions that generate fluid expulsion features on Earth. The co-occurrence but not necessarily identical spatial distribution of polygons and mounds on Mars mirrors terrestrial patterns where polygonal faults and mud volcanoes are related but spatially independent expressions of fluid expulsion. The paper also notes that the size of martian polygons, when resolved at higher imaging resolution, overlaps with terrestrial polygon sizes, strengthening the analog. However, limitations include the lack of subsurface data on Mars to confirm fault geometries and fluid pathways, and the absence of direct evidence for current or past fluid or gas emissions from these features. While the analog supports the presence of an ancient ocean or large standing water bodies depositing fine sediments in Chryse Planitia, the authors caution that this interpretation is not definitive and that further data, including in situ measurements and higher resolution imaging, are needed to confirm the role of fluid expulsion and the existence of an ancient ocean. Overall, this work contributes a plausible sedimentary and fluid expulsion framework linking the giant polygons and mounds in Chryse Planitia to processes requiring significant past water activity, thus supporting but not conclusively proving the existence of an ancient ocean in this region of Mars."
+}

@@ -1,0 +1,44 @@
+# Survey.txt
+
+## Scientific Question:
+Did an ancient ocean exist in the Chryse Planitia of Mars?
+
+### 1. Overall Research Status
+The question of whether an ancient ocean existed in Chryse Planitia remains a subject of active investigation, with various studies providing insights into geological features that may suggest past aqueous environments. Evidence from delta deposits, mud volcanoes, and landform morphology indicates potential interactions with liquid water, yet interpretations vary regarding the extent and implications of these findings. While some studies support the hypothesis of an ancient ocean, others highlight uncertainties and alternative explanations, necessitating further research to clarify Mars' hydrological history.
+
+### 2. Evidence Framework
+
+#### Delta Deposits
+The presence of delta deposits in Chryse Planitia has been a focal point for assessing the existence of an ancient ocean. De Toffoli et al. (2021) cataloged delta formations across Mars, identifying six that could be associated with ancient shorelines, including one in Chryse Planitia. However, discrepancies in age and location relative to proposed shorelines suggest that these deltas may not provide a consistent reconstruction of an ancient ocean, indicating that while they reflect local hydrological conditions, they do not conclusively support the existence of a widespread ocean.
+
+#### Mud Volcanism
+Evidence for mud volcanism in Chryse Planitia, as presented by Komatsu et al. (2016), suggests a history of fluid-rich processes that could be linked to the presence of liquid water. The morphological characteristics of small edifice features resemble terrestrial mud volcanoes, and the detection of hydrated minerals further supports the involvement of water. However, the authors caution that alternative mechanisms, such as magmatic volcanism, cannot be ruled out, highlighting the need for in-situ investigations to confirm these interpretations.
+
+#### Isolated Landforms
+McNeil et al. (2021) examined isolated landforms in Southern Chryse Planitia, suggesting that mounds in the region may be remnants of a once-continuous layer influenced by ancient aqueous processes. Their classification of over 14,000 mounds indicates potential connections to an ancient oceanic environment. However, the authors note that these features could also represent erosional remnants, underscoring the uncertainty regarding their origins and relationship to past water activity.
+
+### 3. Chronological Literature Contributions
+
+- **[2016] Small edifice features in Chryse Planitia, Mars: Assessment of a mud volcano hypothesis (Komatsu et al., 2016)**
+  - **Authors:** Komatsu, Goro; Okubo, Chris H.; Wray, James J.; Ojha, Lujendra; Cardinale, Marco; Murana, Alessio; Orosei, Roberto; Chan, Marjorie A.; Ormö, Jens; Gallagher, Ronnie
+  - **Journal:** Icarus
+  - **File:** Small edifice features in Chryse Planitia, Mars_ Assessment of a mud volcano hypothesis.pdf
+  - **Contribution Statement:** This study provides evidence supporting the hypothesis of mud volcanism in Chryse Planitia, suggesting a historical presence of liquid water potentially linked to an ancient ocean. However, alternative explanations such as magmatic volcanism are acknowledged.
+
+- **[2021] Delta Deposits on Mars: A Global Perspective (De Toffoli et al., 2021)**
+  - **Authors:** De Toffoli, B.; Plesa, A.‐C.; Hauber, E.; Breuer, D.
+  - **Journal:** Geophysical Research Letters
+  - **File:** Delta Deposits on Mars_ A Global Perspective.pdf
+  - **Contribution Statement:** This research investigates delta deposits in Chryse Planitia, identifying them as potential indicators of ancient oceanic shorelines. However, discrepancies in their age and location suggest that they do not conclusively support the existence of a widespread ancient ocean.
+
+- **[2021] Morphology, Morphometry and Distribution of Isolated Landforms in Southern Chryse Planitia, Mars (McNeil et al., 2021)**
+  - **Authors:** McNeil, Joseph D.; Fawdon, Peter; Balme, Matthew R.; Coe, Angela L.
+  - **Journal:** Journal of Geophysical Research: Planets
+  - **File:** Morphology, Morphometry and Distribution of Isolated Landforms in Southern Chryse Planitia, Mars.pdf
+  - **Contribution Statement:** This study suggests that mounds in Southern Chryse Planitia may be remnants of an ancient aqueous environment, although their origins remain uncertain and could represent erosional features rather than direct evidence of an ancient ocean.
+
+### 4. Synthesis Toward the Scientific Question
+The collective evidence from delta deposits, mud volcanism, and isolated landforms presents a complex picture of Chryse Planitia's geological history. While some features suggest interactions with liquid water, the interpretations are not definitive. The presence of delta deposits indicates potential ancient shorelines, yet their inconsistencies raise questions about the extent of an ancient ocean. Mud volcanism and landform morphology provide additional context for aqueous processes, but uncertainties regarding their origins complicate the narrative. Overall, while there are compelling indicators of past water activity, the existence of a widespread ancient ocean in Chryse Planitia remains uncertain.
+
+### 5. Remaining Research Gaps
+Further investigations are necessary to resolve the uncertainties surrounding the geological features in Chryse Planitia. In-situ analyses are crucial for confirming the nature of mud volcanism and the composition of landforms. Additionally, more comprehensive studies of delta deposits and their relationships to proposed shorelines are needed to clarify the hydrological history of Mars. Addressing these gaps will enhance our understanding of the potential for an ancient ocean and the implications for Mars' climatic evolution.

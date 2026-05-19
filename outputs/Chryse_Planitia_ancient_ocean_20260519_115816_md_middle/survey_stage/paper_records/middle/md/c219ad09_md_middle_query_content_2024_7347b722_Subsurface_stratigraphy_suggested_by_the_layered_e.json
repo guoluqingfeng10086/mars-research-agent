@@ -1,0 +1,46 @@
+{
+  "paper_id": "Subsurface stratigraphy suggested by the layered ejecta craters in the Martian northern planitiae.pdf",
+  "rank": 16,
+  "score": 0.015907635791130935,
+  "rrf_score": 0.015114143269483075,
+  "phrase_score": 0.15,
+  "phrase_boost": 1.0525,
+  "phrase_matches": [
+    {
+      "phrase": "Chryse Planitia",
+      "normalized_phrase": "chryse planitia",
+      "fields": [
+        "research_region"
+      ],
+      "score": 0.3
+    }
+  ],
+  "vector_rank": 105,
+  "bm25_rank": 23,
+  "vector_score": 0.6741108894348145,
+  "bm25_score": 4.229304613009865,
+  "raw_bm25_score": 4.229304613009865,
+  "title": "Subsurface stratigraphy suggested by the layered ejecta craters in the Martian northern planitiae",
+  "year": "2024.0",
+  "journal": "Icarus",
+  "authors": "Gou, Sheng; Yue, Zongyu; Di, Kaichang; Pinet, Patrick C.; Bugiolacchi, Roberto; Niu, Shengli; Cai, Zhanchuan; Jin, Shuanggen",
+  "url": "https://linkinghub.elsevier.com/retrieve/pii/S001910352400160X",
+  "file_name": "Subsurface stratigraphy suggested by the layered ejecta craters in the Martian northern planitiae.pdf",
+  "pdf_path": "",
+  "research_region": "Acidalia Planitia; Chryse Planitia; Utopia Planitia; Isidis Planitia; Amazonis Planitia; Arcadia Planitia",
+  "data_instruments_samples": "Robbins and Hynek (2012a) global crater database; Lagain et al. (2021) crater morphology database; THEMIS mosaic images (100 m/pixel); Context Camera (CTX) mosaic images (5 m/pixel); Mars Orbiter Laser Altimeter (MOLA) topographic data; empirical excavation depth models; stratigraphic analysis methods",
+  "abstract_note": "The formation of layered ejecta craters (LECs) is generally thought to be related to the subsurface water-ice. The distribution of LECs in the northern regions of Mars (0 to 70◦ N) features both local and latitudinal variations, e. g., there are generally few LECs within volcanic areas, and the observed minimum and median diameters of the LECs decreases with increasing latitude. The observed minimum diameters of the LECs in the six planitiae within the northern lowlands suggest the roof depth of the LECs-forming layer has clear lateral variability, ranging between ~90 m in the Arcadia Planitia and ~280 m in the Isidis Planitia. The observed LECs are suggested to mainly form during the Amazonian, implying that the LEC-forming water-ice-bearing strata might be still present. The variation might reflect the comprehensive influence on the subsurface water-ice by the climate conditions and geologic events during the Amazonian period. The proposed subsurface stratigraphies in the six planitiae suggest that the total thickness of the LECs-related strata in the Chryse Planitia is the largest (~4.6 km) and in the Arcadia Planitia is the smallest (~1.6 km). There could be as much as ~3.5–16 million km3 subsurface water stored in these strata, resulting in a ~24–110 m global equivalent layer (GEL) of water. Given that water is a fundamental ingredient to life, its migration from surface to subsurface shifts the focus of its exploration. Both Arcadia and Utopia Planitiae represent ideal candidates as locations where both shallow and deep subsurface water-ice might be abundant, they represent high-priority targets for future missions at mid-latitudes for biosignature searching and in-situ resource utilization.",
+  "abstract": "",
+  "research_content": "This paper analyzes the distribution and characteristics of layered ejecta craters (LECs) in the northern Martian planitiae (0 to 70°N) to infer subsurface stratigraphy and water-ice content. The authors use global crater databases and THEMIS and CTX image data to estimate excavation depths of LECs, construct stratigraphic layers related to water-ice abundance, and estimate the volume of subsurface water-ice in six major planitiae. They find lateral variability in the roof depth of the LEC-forming water-ice-bearing layer, ranging from ~90 m in Arcadia Planitia to ~280 m in Isidis Planitia, and estimate total thicknesses of LEC-related strata from ~1.6 km to ~4.6 km. The study suggests that these strata may contain ~3.5 to 16 million km3 of subsurface water-ice, equivalent to a global water layer of ~24 to 110 m, and identifies Arcadia and Utopia Planitiae as high-priority targets for future exploration due to their abundant shallow and deep subsurface water-ice.",
+  "screening_result": {
+    "row_id": 0,
+    "relevance_level": "medium",
+    "is_selected": true,
+    "reason": "The paper discusses subsurface water-ice stratigraphy in Chryse Planitia, indicating significant subsurface water presence, which is relevant background information for understanding ancient water bodies but does not directly confirm an ancient ocean."
+  },
+  "record_mode": "middle",
+  "record_source": "query_centered_content",
+  "digest_source_field": "md_full_text",
+  "resolved_source_path": "G:\\MMCorpus2000v1_md\\Subsurface stratigraphy suggested by the layered ejecta craters in the Martian northern planitiae.md",
+  "query_centered_content": "This study provides indirect but significant evidence relevant to the question of whether an ancient ocean existed in the Chryse Planitia of Mars by analyzing the subsurface stratigraphy inferred from layered ejecta craters (LECs). The authors find that the total thickness of the LEC-related water-ice-bearing strata in Chryse Planitia is the largest among six northern Martian planitiae examined (~4.6 km), with a roof depth of the ice-rich layer at ~130 m. This thick subsurface water-ice layer is consistent with the hypothesis that large bodies of water, possibly including an ancient ocean or large lakes, existed in this region during the Hesperian or early Amazonian periods, as supported by geological evidence of outflow channels and flood deposits. The presence of extensive subsurface water-ice today, inferred from the distribution and size of LECs, suggests that water from these ancient surface bodies may have migrated underground and been preserved in thick strata. The estimated subsurface water volume in Chryse Planitia alone is substantial (~0.6 to 2.7 million km3), supporting the idea of a significant ancient water reservoir. However, the study does not directly confirm the existence of a paleo-ocean but rather provides constraints on the subsurface water-ice distribution that is consistent with such a scenario. Limitations include reliance on crater morphology and excavation depth models to infer subsurface ice, uncertainties in water-ice abundance, and the inability to detect water-ice layers above or below the LEC-forming strata. The authors note that smaller LECs (<1 km) are not fully catalogued, which may affect roof depth estimates. Overall, this paper advances the research status by quantifying the subsurface water-ice stratigraphy in Chryse Planitia, supporting the plausibility of an ancient ocean whose water has been sequestered underground, but it stops short of direct paleo-ocean confirmation."
+}
