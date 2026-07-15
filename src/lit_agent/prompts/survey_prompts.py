@@ -6,10 +6,6 @@ Judge whether each candidate paper is relevant to the given scientific question.
 Return only valid JSON.
 """.strip()
 
-
-
-
-
 RELEVANCE_USER_PROMPT = """
 Scientific question:
 {query}
@@ -57,8 +53,6 @@ For each candidate, return only:
 Return only a valid JSON list.
 No Markdown.
 """.strip()
-
-
 
 PAPER_QUERY_CONTENT_SYSTEM_PROMPT = """
 You are a planetary science paper-reading assistant.

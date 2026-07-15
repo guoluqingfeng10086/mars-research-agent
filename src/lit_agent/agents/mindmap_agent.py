@@ -141,6 +141,7 @@ class MindMapAgent:
         survey_text: str,
         paper_records: List[Dict[str, Any]],
         survey_mode: str,
+        supplement_context: str = "",
     ) -> str:
         compact_records = self._compact_records_for_mindmap(
             paper_records=paper_records,
@@ -156,6 +157,8 @@ class MindMapAgent:
                 indent=2,
             ),
         )
+        if supplement_context.strip():
+            user_prompt += "\n\n" + supplement_context.strip()
 
         return self._call_llm(
             system_prompt=FINAL_MINDMAP_SYSTEM_PROMPT,
@@ -169,12 +172,14 @@ class MindMapAgent:
         paper_records: List[Dict[str, Any]],
         survey_mode: str,
         output_path: str,
+        supplement_context: str = "",
     ) -> str:
         mindmap_text = self.generate_mindmap(
             query=query,
             survey_text=survey_text,
             paper_records=paper_records,
             survey_mode=survey_mode,
+            supplement_context=supplement_context,
         )
 
         write_text(output_path, mindmap_text)

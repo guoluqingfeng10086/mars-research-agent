@@ -1,5 +1,4 @@
 # scripts/run_survey_stage.py
-
 import argparse
 import json
 import re

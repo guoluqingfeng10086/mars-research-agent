@@ -178,12 +178,25 @@ class PaperDigestAgent:
             source_label = "pdf_full_text"
 
             if source_path is None:
-                raise FileNotFoundError(
-                    f"Cannot find PDF for file_name={file_name} under {self.pdf_corpus_dir}"
+                source_path = resolve_md_path(
+                    file_name=file_name,
+                    md_root=self.md_corpus_dir,
                 )
+                source_label = "md_full_text"
 
-            print(f"[PaperDigestAgent] Reading PDF: {source_path}")
-            source_text = extract_pdf_text(source_path)
+                if source_path is None:
+                    raise FileNotFoundError(
+                        f"Cannot find PDF or Markdown for file_name={file_name} "
+                        f"under {self.pdf_corpus_dir} or {self.md_corpus_dir}"
+                    )
+
+                print(
+                    f"[PaperDigestAgent] PDF not found; falling back to Markdown: {source_path}"
+                )
+                source_text = extract_md_text(source_path)
+            else:
+                print(f"[PaperDigestAgent] Reading PDF: {source_path}")
+                source_text = extract_pdf_text(source_path)
 
         elif self.content_source == "md":
             source_path = resolve_md_path(
@@ -193,12 +206,25 @@ class PaperDigestAgent:
             source_label = "md_full_text"
 
             if source_path is None:
-                raise FileNotFoundError(
-                    f"Cannot find Markdown for file_name={file_name} under {self.md_corpus_dir}"
+                source_path = resolve_pdf_path(
+                    file_name=file_name,
+                    pdf_root=self.pdf_corpus_dir,
                 )
+                source_label = "pdf_full_text"
 
-            print(f"[PaperDigestAgent] Reading Markdown: {source_path}")
-            source_text = extract_md_text(source_path)
+                if source_path is None:
+                    raise FileNotFoundError(
+                        f"Cannot find Markdown or PDF for file_name={file_name} "
+                        f"under {self.md_corpus_dir} or {self.pdf_corpus_dir}"
+                    )
+
+                print(
+                    f"[PaperDigestAgent] Markdown not found; falling back to PDF: {source_path}"
+                )
+                source_text = extract_pdf_text(source_path)
+            else:
+                print(f"[PaperDigestAgent] Reading Markdown: {source_path}")
+                source_text = extract_md_text(source_path)
 
         else:
             raise ValueError(f"Unsupported content_source: {self.content_source}")
@@ -512,11 +538,16 @@ class PaperDigestAgent:
             print(f"File: {paper.get('file_name', '')}")
             print("=" * 100)
 
-            record = self.build_query_centered_record(
-                query=query,
-                paper=paper,
-                mode="middle",
-            )
+            try:
+                record = self.build_query_centered_record(
+                    query=query,
+                    paper=paper,
+                    mode="middle",
+                )
+            except FileNotFoundError as exc:
+                print(f"[PaperDigestAgent] Skip paper because source file was not found: {exc}")
+                continue
+
             records.append(record)
 
         return sorted(records, key=self._safe_year)
@@ -539,17 +570,21 @@ class PaperDigestAgent:
             print(f"File: {paper.get('file_name', '')}")
             print("=" * 100)
 
-            if relevance_level == "high":
-                record = self.build_deep_analysis_record(
-                    query=query,
-                    paper=paper,
-                )
-            else:
-                record = self.build_query_centered_record(
-                    query=query,
-                    paper=paper,
-                    mode="full",
-                )
+            try:
+                if relevance_level == "high":
+                    record = self.build_deep_analysis_record(
+                        query=query,
+                        paper=paper,
+                    )
+                else:
+                    record = self.build_query_centered_record(
+                        query=query,
+                        paper=paper,
+                        mode="full",
+                    )
+            except FileNotFoundError as exc:
+                print(f"[PaperDigestAgent] Skip paper because source file was not found: {exc}")
+                continue
 
             records.append(record)
 
