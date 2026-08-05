@@ -3,15 +3,27 @@
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-# CORPUS_PKL_PATH = str(PROJECT_ROOT / "mmcorpus_bge.pkl")
 CORPUS_PKL_PATH = str(PROJECT_ROOT / "mmcorpus_bge_merged.pkl")
-MODEL_PATH = r"G:\model\bge-large-en-v1.5"
-PDF_CORPUS_DIR = r"G:\MMCorpus2000v1"
-MD_CORPUS_DIR = r"G:\MMCorpus2000v1_md"
+# bge-large-en-v1.5 path
+MODEL_PATH = ""
+
+
+# =========================
+# LLM config
+# =========================
+USE_LLM_QUERY_ANALYZER = True
+QUERY_LLM_API_KEY = ""
+QUERY_LLM_BASE_URL = ""
+QUERY_LLM_MODEL = ""
+QUERY_LLM_TIMEOUT = 60
+
+# paper path
+PDF_CORPUS_DIR = ""
+MD_CORPUS_DIR = ""
 DEFAULT_MAX_SOURCE_CHARS = 150000
 
 # outputs
-OUTPUT_ROOT_DIR = "outputs_mineral"
+OUTPUT_ROOT_DIR = "outputs"
 
 DEVICE = "cuda"
 MAX_SEQ_LENGTH = 512
@@ -49,11 +61,4 @@ RRF_K = 80
 # Phrase boost after RRF
 PHRASE_BOOST_WEIGHT = 0.45
 
-# =========================
-# LLM query analyzer config
-# =========================
-USE_LLM_QUERY_ANALYZER = True
-QUERY_LLM_API_KEY = "sk-a7SevkPdOm29MKRA80D7U2V8eZHSpqsXKpKYPwfl7OGXmwyg"
-QUERY_LLM_BASE_URL = "https://api.nuwaflux.com/v1"
-QUERY_LLM_MODEL = "gpt-4.1-mini"
-QUERY_LLM_TIMEOUT = 60
+

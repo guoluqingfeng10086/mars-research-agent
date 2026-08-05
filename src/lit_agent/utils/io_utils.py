@@ -2,22 +2,22 @@
 
 import json
 from pathlib import Path
-from typing import Any, Iterable, List
+from typing import Any, Iterable, List, Union
 
 
-def ensure_dir(path: str | Path) -> Path:
+def ensure_dir(path: Union[str, Path]) -> Path:
     path = Path(path)
     path.mkdir(parents=True, exist_ok=True)
     return path
 
 
-def write_text(path: str | Path, text: str) -> None:
+def write_text(path: Union[str, Path], text: str) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
 
-def read_text(path: str | Path, default: str = "") -> str:
+def read_text(path: Union[str, Path], default: str = "") -> str:
     path = Path(path)
     if not path.exists():
         return default
@@ -66,7 +66,7 @@ def _to_jsonable(obj: Any) -> Any:
     return str(obj)
 
 
-def save_json(data: Any, path: str | Path) -> None:
+def save_json(data: Any, path: Union[str, Path]) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -76,7 +76,7 @@ def save_json(data: Any, path: str | Path) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def load_json(path: str | Path, default: Any = None) -> Any:
+def load_json(path: Union[str, Path], default: Any = None) -> Any:
     path = Path(path)
 
     if not path.exists():

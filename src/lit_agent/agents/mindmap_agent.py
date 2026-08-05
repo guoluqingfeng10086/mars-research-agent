@@ -1,7 +1,7 @@
 # src/lit_agent/agents/mindmap_agent.py
 
 import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 from openai import OpenAI
 
@@ -69,7 +69,7 @@ class MindMapAgent:
             paper.get("screening_result", {}).get("relevance_level", "")
         ).lower()
 
-    def _get_lightweight_content(self, paper: Dict[str, Any]) -> tuple[str, str]:
+    def _get_lightweight_content(self, paper: Dict[str, Any]) -> Tuple[str, str]:
         abstract_note = paper.get("abstract_note", "") or ""
         research_content = paper.get("research_content", "") or ""
 
@@ -78,7 +78,7 @@ class MindMapAgent:
 
         return "research_content", research_content
 
-    def _get_full_content(self, paper: Dict[str, Any]) -> tuple[str, str]:
+    def _get_full_content(self, paper: Dict[str, Any]) -> Tuple[str, str]:
         expert_obj = paper.get("expert_level_deep_analysis", {})
 
         if isinstance(expert_obj, dict):

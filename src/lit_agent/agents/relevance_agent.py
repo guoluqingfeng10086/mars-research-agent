@@ -1,7 +1,7 @@
 # src/lit_agent/agents/relevance_agent.py
 
 import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
 
 from openai import OpenAI
 
@@ -94,7 +94,7 @@ class RelevanceAgent:
 
         return data
     
-    def _select_content(self, paper: Dict[str, Any]) -> tuple[str, str]:
+    def _select_content(self, paper: Dict[str, Any]) -> Tuple[str, str]:
         """
         Use abstract_note first. If empty, use research_content.
         Only one content field is sent to the LLM.

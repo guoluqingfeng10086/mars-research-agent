@@ -1,7 +1,6 @@
 import json
 import os
 import time
-from dataclasses import dataclass
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.error import HTTPError, URLError
@@ -9,21 +8,36 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
-@dataclass
 class WebLiteratureResult:
-    source: str
-    query: str
-    rank: int
-    title: str = ""
-    year: str = ""
-    journal: str = ""
-    authors: str = ""
-    doi: str = ""
-    url: str = ""
-    abstract: str = ""
-    citation_count: Optional[int] = None
-    external_id: str = ""
-    raw_score: Optional[float] = None
+    def __init__(
+        self,
+        source: str,
+        query: str,
+        rank: int,
+        title: str = "",
+        year: str = "",
+        journal: str = "",
+        authors: str = "",
+        doi: str = "",
+        url: str = "",
+        abstract: str = "",
+        citation_count: Optional[int] = None,
+        external_id: str = "",
+        raw_score: Optional[float] = None,
+    ):
+        self.source = source
+        self.query = query
+        self.rank = rank
+        self.title = title
+        self.year = year
+        self.journal = journal
+        self.authors = authors
+        self.doi = doi
+        self.url = url
+        self.abstract = abstract
+        self.citation_count = citation_count
+        self.external_id = external_id
+        self.raw_score = raw_score
 
     def to_dict(self) -> Dict[str, Any]:
         return {

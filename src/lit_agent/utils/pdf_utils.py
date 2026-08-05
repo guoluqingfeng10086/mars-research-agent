@@ -1,10 +1,10 @@
 # src/lit_agent/utils/pdf_utils.py
 
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 
-def resolve_pdf_path(file_name: str, pdf_root: str | Path) -> Optional[Path]:
+def resolve_pdf_path(file_name: str, pdf_root: Union[str, Path]) -> Optional[Path]:
     if not file_name:
         return None
 
@@ -21,7 +21,7 @@ def resolve_pdf_path(file_name: str, pdf_root: str | Path) -> Optional[Path]:
     return None
 
 
-def extract_pdf_text(pdf_path: str | Path) -> str:
+def extract_pdf_text(pdf_path: Union[str, Path]) -> str:
     try:
         import fitz  # PyMuPDF
     except ImportError as exc:

@@ -4,7 +4,7 @@ import json
 import math
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
@@ -60,6 +60,7 @@ except ImportError:
 from lit_agent.agents.mindmap_agent import MindMapAgent
 from lit_agent.agents.paper_digest_agent import PaperDigestAgent
 from lit_agent.agents.relevance_agent import RelevanceAgent
+from lit_agent.agents.research_map_agent import ResearchMapAgent
 from lit_agent.agents.retrieval_agent import RetrievalAgent
 from lit_agent.agents.supplement_agent import SupplementAgent
 from lit_agent.agents.survey_agent import SurveyAgent
@@ -301,7 +302,7 @@ def _unique_texts(values: List[str]) -> List[str]:
 
 def collect_supplement_queries(
     supplement_plan: Dict[str, Any],
-) -> tuple[List[str], List[str]]:
+) -> Tuple[List[str], List[str]]:
     local_queries = []
     web_queries = []
 
@@ -364,7 +365,7 @@ def run_supplement_round(
     paper_records: List[Dict[str, Any]],
     retrieval_agent: RetrievalAgent,
     survey_output_dir: Path,
-) -> tuple[Optional[Dict[str, Any]], Optional[SupplementAgent]]:
+) -> Tuple[Optional[Dict[str, Any]], Optional[SupplementAgent]]:
     supplement_agent = SupplementAgent(temperature=0.0)
 
     supplement_config = {
@@ -605,6 +606,7 @@ def main():
     selected_path = survey_output_dir / "selected_papers.json"
     survey_path = survey_output_dir / "survey.txt"
     mindmap_path = survey_output_dir / "MindMap.txt"
+    research_map_path = survey_output_dir / "research_map.json"
     run_config_path = run_output_dir / "run_config.json"
 
     save_run_config(
@@ -750,7 +752,7 @@ def main():
         temperature=0.2,
     )
 
-    mindmap_agent.generate_and_save(
+    mindmap_text = mindmap_agent.generate_and_save(
         query=query,
         survey_text=survey_text,
         paper_records=paper_records,
@@ -766,6 +768,20 @@ def main():
     print(f"Saved mind map to: {mindmap_path}")
 
     print("\n" + "=" * 100)
+    print("Stage 6: Structured Research Map Generation")
+    print("=" * 100)
+
+    research_map_agent = ResearchMapAgent(temperature=0.0)
+    research_map_agent.generate_and_save(
+        question=query,
+        survey_text=survey_text,
+        mindmap_text=mindmap_text,
+        paper_records=paper_records,
+        output_path=research_map_path,
+    )
+    print(f"Saved research map to: {research_map_path}")
+
+    print("\n" + "=" * 100)
     print("Survey stage with optional supplement finished.")
     print("=" * 100)
     print(f"Run output dir:      {run_output_dir}")
@@ -775,6 +791,7 @@ def main():
     print(f"Literature records:  {paper_records_path}")
     print(f"Survey report:       {survey_path}")
     print(f"Mind map:            {mindmap_path}")
+    print(f"Research map:        {research_map_path}")
     print(f"Supplement evidence: {survey_output_dir / 'supplementary_evidence_report.md'}")
 
 

@@ -14,8 +14,6 @@ GEO_DATA_ENABLED = True
 USE_HIRISE = True
 USE_MINERAL_ABUNDANCE = True
 
-HTTP_PROXY = os.getenv("MARS_GEO_HTTP_PROXY", "http://127.0.0.1:7890")
-HTTPS_PROXY = os.getenv("MARS_GEO_HTTPS_PROXY", "http://127.0.0.1:7890")
 
 # Override any path with environment variables if local directories differ.
 GLOBAL_DATA_ROOT = Path(os.getenv("MARS_GLOBAL_DATA_ROOT", r"G:\Lenovo\全球数据"))

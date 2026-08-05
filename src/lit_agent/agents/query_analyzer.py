@@ -3,7 +3,6 @@
 import ast
 import json
 import re
-from dataclasses import dataclass, field
 from typing import Any, Dict, List
 
 from openai import OpenAI
@@ -22,18 +21,23 @@ from lit_agent.prompts.Intent_prompts import (
 )
 
 
-@dataclass
 class QueryPlan:
-    original_query: str
-    semantic_query: str
-
-    geological_concepts: List[str] = field(default_factory=list)
-    target_regions: List[str] = field(default_factory=list)
-
-    # BM25 only uses complete phrases.
-    query_phrases: List[str] = field(default_factory=list)
-
-    bm25_query: str = ""
+    def __init__(
+        self,
+        original_query: str,
+        semantic_query: str,
+        geological_concepts=None,
+        target_regions=None,
+        query_phrases=None,
+        bm25_query: str = "",
+    ):
+        self.original_query = original_query
+        self.semantic_query = semantic_query
+        self.geological_concepts = list(geological_concepts or [])
+        self.target_regions = list(target_regions or [])
+        # BM25 only uses complete phrases.
+        self.query_phrases = list(query_phrases or [])
+        self.bm25_query = bm25_query
 
 
 class QueryAnalyzer:
