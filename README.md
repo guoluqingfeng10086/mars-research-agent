@@ -1,15 +1,20 @@
 # Mars Research Agent
 
-Mars Research Agent is a research workflow for Mars-related literature
-retrieval, relevance screening, survey generation, research-map construction,
-and evidence-gap analysis. The complete system supports adaptive full-text
-reading and optional integration of local geologic products.
-multi-source data products can be found in the appendix of the article.
+A reproducible workflow for Mars literature retrieval, evidence synthesis,
+and discovery-driven gap analysis.
+
+<p align="center">
+  <embed src="framework.pdf" type="application/pdf" width="720" height="420" />
+</p>
+
+[View framework.pdf](framework.pdf)
+
+<hr style="border-top:4px solid #333" />
 
 ## Review-Package Scope
 
 The complete paper corpus is not included in this review package. The released
-serialized corpus contains approximately **2,235 paper records**, including
+serialized corpus contains **2000+ paper records**, including
 bibliographic metadata, `abstract_note`, `research_content`, and precomputed
 embeddings. It supports lightweight literature retrieval, Survey generation,
 Research Memory construction, and Discovery analysis.
@@ -19,6 +24,8 @@ papers or inspect their full references and supplementary files. Compared with
 the complete version described in the manuscript, it therefore does not perform
 adaptive full-text reading. Survey and Discovery results produced in this mode
 are provided for reference only.
+
+<hr style="border-top:4px solid #333" />
 
 ## Reviewer Quick Start
 
@@ -55,6 +62,8 @@ Also disable the optional supplement round in `config.py`:
 ENABLE_SUPPLEMENT_ROUND = False
 ```
 
+<hr style="border-top:4px solid #333" />
+
 ### 1. Run the Lightweight Survey
 
 The Survey stage can be run independently to retrieve papers, screen relevance,
@@ -70,6 +79,8 @@ python scripts/run_survey_stage.py \
 
 This produces `survey.txt`, `MindMap.txt`, and `research_map.json` without
 opening source PDF/Markdown papers.
+
+<hr style="border-top:4px solid #333" />
 
 ### 2. Run the Discovery Agent
 
@@ -124,6 +135,8 @@ accepted observation. In the reviewer-facing lightweight configuration, the
 same question can be evaluated only from the released Research Memory, so its
 result remains for reference only.
 
+<hr style="border-top:4px solid #333" />
+
 ## Workflow
 
 ```text
@@ -145,6 +158,8 @@ complete local environment it can request additional literature reading and
 geologic evidence. In the reviewer configuration above, it operates only on the
 lightweight Research Memory.
 
+<hr style="border-top:4px solid #333" />
+
 ## Reading Modes
 
 | Mode | Information used | Full-text corpus | Review package |
@@ -155,6 +170,8 @@ lightweight Research Memory.
 
 The `middle` and `full` implementations are included in the code and are used
 with the complete corpus in the authors' local environment.
+
+<hr style="border-top:4px solid #333" />
 
 ## Project Structure
 
@@ -176,6 +193,8 @@ src/lit_agent/retrieval/                    vector, BM25, Web, and geo retrieval
 src/lit_agent/prompts/discovery_prompts.py complete Discovery prompt set
 ```
 
+<hr style="border-top:4px solid #333" />
+
 ## Configuration
 
 The main local paths are defined in `config.py`:
@@ -195,6 +214,8 @@ The complete local system additionally requires `PyMuPDF` for PDF reading. Its
 optional geologic-product retrieval requires `pandas`, `geopandas`, `rasterio`,
 `shapely`, `fiona`, `geopy`, `requests`, and `lxml`, together with the local
 datasets configured in `geo_data_config.py`.
+
+<hr style="border-top:4px solid #333" />
 
 ## Outputs
 
@@ -222,6 +243,8 @@ discovery_stage/<question_timestamp>/
   discovery_result.json
   discovery_report.txt
 ```
+
+<hr style="border-top:4px solid #333" />
 
 ## Data Availability
 
